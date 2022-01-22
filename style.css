@@ -1,0 +1,355 @@
+    *{
+
+        box-sizing: border-box;
+    }
+
+    :root{
+        --color1:#D89584;
+        --color2:#F4F4F4;
+    }
+
+    body{
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5;
+    }
+
+    iframe{
+        width: 100%;
+        border: 0;
+        height: 350px;
+    }
+
+    div.cover{
+
+        background: url(images/cover_overlay.png) no-repeat center/100% 100%, url(images/cover.jpg) no-repeat center/cover;
+        height: 360px;
+    }
+
+    img.cover_profile{
+        height: 100px;
+        position: relative;
+        left: 50%;
+        margin-left: -50px;
+        margin-top: 50px;
+    }
+
+    h1{
+        color: white;
+        text-align: center;
+        font-size: 42px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+    div.cover p{
+        color: lightgray;
+        text-align: center;
+        margin-top: 8px;
+        font-size: 14px;
+    }
+
+    div.cover_contact{
+        /*background-color: #121212;*/
+        position: absolute;
+        left: 10px;
+        top: 16px;
+        border-left: solid 4px var(--color1);
+        padding-left: 8px;
+    }
+
+    div.cover_contact p{
+        text-align: left;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    div.cover_contact p:first-child{
+        margin-bottom: 14px;
+    }
+
+    div.cover_contact *{
+        color: white;
+        font-size: 14px;
+    }
+
+
+    div.contact_button a{
+        color: var(--color1);
+        border: solid 3px var(--color1);
+        text-decoration: none;
+        padding: 8px 20px;
+        background-color: #00000040;
+        display: inline-block;
+        margin-top: 18px;
+        font-size: 14px;
+    }
+
+    div.contact_button a:hover{
+        color: white;
+        border: solid 3px white;
+    }
+
+    div.contact_button{
+        text-align: center;
+    }
+
+    div.contact_button_portfolio{
+        position: absolute; 
+        right: 20px; 
+        top: 5px;
+    }
+
+    .section{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        overflow: auto;
+    }
+
+    div.section_grise1{
+        background: url(images/triangle2white.svg) no-repeat center bottom/100%;
+        background-color: var(--color2);
+        padding-bottom: 70px;
+    }
+
+    div.section_grise2{
+        background: url(images/triangle1white.svg) no-repeat center top/100%;
+        background-color: var(--color2);
+        padding-top: 80px;
+    }
+
+    div h2{
+        text-align: center;
+        font-size: 34px;
+        margin-top: 0px;
+    }
+
+    div.section_grise1 p{
+        font-size: 22px;
+        color: #656565;
+        text-align: center;
+        max-width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 1.5;
+    }
+
+    div.separateur{
+        background-color: #979797;
+        height: 1px;
+        width: 150px;
+        left: 50%;
+        margin-left: -75px;
+        position: relative;
+    }
+
+    /*Portfolio*/
+
+    .col40{
+         width: 40%;
+    }
+
+    .col60{
+        width: 60%;
+        float: right;
+        box-sizing: border-box;
+        padding-left: 10px;
+    }
+
+    .flot_right{
+        float: right;
+    }
+
+    div.col60 p{
+        margin-top: 0px;
+        border-left: solid 3px var(--color1);
+        padding-left: 8px;
+        height: 50px;
+        display: inline-block;
+    }
+
+    div.col60 a{
+        padding-left: 10px;
+    }
+
+    .portfolio_first_col_vertical_bar{
+        border-left: 4px solid var(--color1);
+        height: 50px;
+        margin-right: 8px;
+        display: inline-block;
+    }
+
+    .portfolio_first_col{
+        width: 47%;
+        display: inline-block;
+    }
+
+    table img{
+        width: 100%;
+    }
+
+    div.frame{
+        margin: 30px 50px;
+        padding: 20px 30px;
+        background-color: white;
+        box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+        overflow: auto;
+    }
+
+    div.frame img{
+        width: 100px;
+    }
+
+    .parlons_de_projet{
+        font-size: 30px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .portfolio_first_col_vertical_bar p{
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+
+    div.portfolio_header{
+        height: 90px;
+        background: url(images/header.jpg) no-repeat center/cover;
+        padding-top: 12px;
+        position: relative;
+    }
+
+    .portfolio_header h2{
+        color: white;
+        font-size: 26px;
+        font-weight: bold;
+        margin-left: 14px;
+        margin-top: 2px;
+        margin-bottom: 0px;
+    }
+
+    h1.portfolio {
+        font-size: 46px;
+        color: black;
+        line-height: 1;
+        padding-top: 10px;
+    }
+
+    h2.portfolio {
+        font-size: 26px;
+        color: black;
+        font-weight: normal;
+    }
+    a.portfolio_back{
+        color: var(--color1);
+        margin-left: -10px;
+    }
+
+    img.portfolio{
+        width: 70%;
+        max-width: 475px;
+        margin-top: 20px;
+    }
+
+    .display_mobile{
+        display: none;
+    }
+
+    /* Responsive mobile */
+
+    @media only screen and (max-width: 767px) {
+        
+        img.cover_profile{
+            height: 90px;
+            margin-top: 75px;
+        }
+    
+        h1{
+            font-size: 38px;
+            margin-top: 6px;
+            margin-bottom: 0;
+        }
+    
+        div.cover p{
+            margin-top: 2px;
+            font-size: 13px;
+        }
+
+        .section{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    
+        div.section_grise1{
+            padding-bottom: 40px;
+        }
+
+        div h2{
+            font-size: 30px;
+        }
+
+        .col40{
+            width: 100%;
+       }
+   
+       .col60{
+           width: 100%;
+           box-sizing: border-box;
+           padding-left: 0px;
+           margin-top: 20px;
+       }
+
+       .portfolio_first_col{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    div.frame{
+        margin: 0px;
+        padding: 0px;
+        box-shadow: none;
+        overflow: auto;
+    }
+
+    div.frame img{
+        width: 70px;
+    }
+
+
+    /*Portfolio header*/ 
+    .portfolio_header h2{ 
+        font-size: 19px;
+        margin-left: 4px;
+        margin-top: 10px;
+    } 
+
+    div.contact_button a{
+        padding: 7px 15px;
+        margin-top: 22px;
+        font-size: 10px;
+    }
+
+    div.contact_button_portfolio{
+        position: absolute; 
+        right: 4px; 
+        top: 5px;
+    }
+
+    h1.portfolio {
+        font-size: 40px;
+    }
+
+    h2.portfolio {
+        font-size: 22px;
+    }
+
+    img.portfolio{
+        width: 100%;
+    }
+
+    .display_mobile{
+        display: block;
+    }
+}
